@@ -7,59 +7,108 @@
     "packs":
     [
         {
-            "name": "the-true-dragons",
-            "label": "The True Dragons",
-            "type": "JournalEntry",
-            "path": "packs/the-true-dragons.db",
-            "entity": "JournalEntry",
-            "module": "draconic-character-options"
-        },
-        {
-            "name": "backgrounds-dco",
             "label": "Backgrounds (DCO)",
-            "type": "Item",
-            "system": "pf2e",
+            "name": "backgrounds-dco",
             "path": "packs/backgrounds-dco.db",
-            "entity": "Item",
-            "module": "draconic-character-options"
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership":
+            {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "type": "Item",
+            "flags": {}
         },
         {
-            "name": "class-features-dco",
             "label": "Class Features (DCO)",
-            "type": "Item",
-            "system": "pf2e",
+            "name": "class-features-dco",
             "path": "packs/class-features-dco.db",
-            "entity": "Item",
-            "module": "draconic-character-options"
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership":
+            {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "type": "Item",
+            "flags": {}
         },
         {
-            "name": "feats-dco",
             "label": "Feats (DCO)",
-            "type": "Item",
-            "system": "pf2e",
+            "name": "feats-dco",
             "path": "packs/feats-dco.db",
-            "entity": "Item",
-            "module": "draconic-character-options"
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership":
+            {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "type": "Item",
+            "flags": {}
         },
         {
-            "name": "spells-dco",
+            "label": "Feat/Feature Effects (DCO)",
+            "name": "feat-effects-dco",
+            "path": "packs/feat-effects-dco.db",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership":
+            {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "type": "Item",
+            "flags": {}
+        },
+        {
             "label": "Spells (DCO)",
-            "type": "Item",
-            "system": "pf2e",
+            "name": "spells-dco",
             "path": "packs/spells-dco.db",
-            "entity": "Item",
-            "module": "draconic-character-options"
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership":
+            {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "type": "Item",
+            "flags": {}
         },
         {
-            "name": "spell-effects-dco",
             "label": "Spell Effects (DCO)",
-            "type": "Item",
-            "system": "pf2e",
+            "name": "spell-effects-dco",
             "path": "packs/spell-effects-dco.db",
-            "entity": "Item",
-            "module": "draconic-character-options"
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "system": "pf2e",
+            "ownership":
+            {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "type": "Item",
+            "flags": {}
         }
     ],
+    "packFolders":
+    [
+        {
+            "name": "Draconic Character Options",
+            "sorting": "m",
+            "packs":
+            [
+                "backgrounds-dco",
+                "class-features-dco",
+                "feats-dco",
+                "feat-effects-dco",
+                "spells-dco",
+                "spell-effects-dco"
+            ]
+        }
+    ],
+    "manifest": "https://raw.githubusercontent.com/VestOfHolding/Draconic-Character-Options/main/module.json",
+    "download": "https://github.com/VestOfHolding/Draconic-Character-Options/archive/refs/heads/main.zip",
     "id": "draconic-character-options",
     "compatibility":
     {
@@ -76,7 +125,7 @@
                 "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
                 "compatibility":
                 {
-                    "minimum": "5.0.2"
+                    "minimum": "5.1.2"
                 }
             }
         ]
@@ -85,8 +134,7 @@
     [
         {
             "name": "VestOfHolding",
-            "flags":
-            {}
+            "flags": {}
         }
     ]
 }
