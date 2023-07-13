@@ -107,13 +107,16 @@
             ]
         }
     ],
+    "bugs": "https://github.com/VestOfHolding/Draconic-Character-Options/issues",
+    "changelog": "https://github.com/VestOfHolding/Draconic-Character-Options/main/CHANGELOG.md",
     "manifest": "https://raw.githubusercontent.com/VestOfHolding/Draconic-Character-Options/main/module.json",
     "download": "https://github.com/VestOfHolding/Draconic-Character-Options/archive/refs/heads/main.zip",
     "id": "draconic-character-options",
     "compatibility":
     {
         "minimum": "11",
-        "verified": "11"
+        "verified": "11.305",
+        "maximum": "11"
     },
     "relationships":
     {
