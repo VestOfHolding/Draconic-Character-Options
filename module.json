@@ -3,7 +3,7 @@
     "title": "Draconic Character Options",
     "description": "The Foundry module for the Draconic Character Options product on Pathfinder Infinite.",
     "url": "https://github.com/VestOfHolding/Draconic-Character-Options",
-    "version": "1.4",
+    "version": "1.4.1",
     "packs":
     [
         {
@@ -115,7 +115,7 @@
     "compatibility":
     {
         "minimum": "11",
-        "verified": "11.305",
+        "verified": "11.308",
         "maximum": "11"
     },
     "relationships":
@@ -128,7 +128,8 @@
                 "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
                 "compatibility":
                 {
-                    "minimum": "5.1.2"
+                    "minimum": "5.1.2",
+                    "verified": "5.5.3"
                 }
             }
         ]
@@ -137,6 +138,7 @@
     [
         {
             "name": "VestOfHolding",
+            "discord": "VestOfHolding",
             "flags": {}
         }
     ]
